@@ -1,0 +1,200 @@
+#Header{
+    background : url(../images/BG1.jpg);
+    background-size : cover; 
+    height : 150px;
+    width : 100%; 
+}
+
+#Container{
+    width : 100%;
+    height : 500px;
+}
+
+#participant_list{
+    width : 30%;
+    height : 100%;
+    background-color : aqua; 
+    float : left;
+}
+
+#messages{
+    width : 70%;
+    height : 100%;
+    background-color : snow; 
+    float : right;
+}
+
+h1{
+    font-family:cursive;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 10%;
+    line-height: 200%;
+    font-size: 400%;
+    color:white;
+    width: 100%;
+    display:inline;
+}
+
+#logout_button{ 
+    color:gray;
+    font-family: cursive;
+    font-size:25px;
+}
+
+#logout_button:hover{
+    color : white;
+    font-family : cursive;
+    font-size : 28px;
+}
+
+.user_icon{ 
+    height : 50px;
+    width : 50px;
+    display:inline;
+}
+
+.userName{
+    font-family : cursive;
+    display:inline;
+}
+
+.user_classify{
+    font-family : cursive;
+    display : inline;
+    color : gray;
+    float : right;
+}
+
+.chatIcon{
+    height : 50px;
+    width : 50px;
+}
+
+.chatImg{
+    display : block-inline;
+}
+
+.chatMsg{
+    font-family : cursive;
+}
+
+.chatTime{
+    font-family : cursive;
+    color : gray;
+    font-size : 13px;
+}
+
+.yourMsg{
+    float : right;
+    clear : both;
+}
+
+.otherMsg{
+    clear : both;
+}
+
+.chatMsgDiv{
+    display : block;
+}
+
+.chatInfo{
+    display : inline;
+}
+
+#mainWin{
+    height : 88%;
+}
+
+#send{
+    height : 10%;
+}
+
+#send_btn{
+    height : 100%; 
+    width : 10%;
+    font-family : cursive;
+    font-size : 20px; 
+}
+
+#send_msg{
+    height : 90%;
+    width : 85%;
+    float : left;
+    font-family : cursive;
+    font-size : 20px; 
+}
+
+#loginBody{
+    background-color :lightblue;
+}
+
+#loginName{
+    font-family : cursive;
+    margin-top : 10px;
+    margin-bottom : 3px;
+}
+
+#loginPassword{
+    font-family : cursive;
+    margin-bottom : 10px;
+    margin-top : 3px;
+}
+
+#loginForm{
+    font-family : cursive;
+    border : 2px;
+    
+    text-align : center;
+    margin : 50px;
+    border : 2px;
+    background-color:seashell;
+    width:30%;
+    margin-left : 35%;
+    margin-right : 35%;
+    height : 120px ;
+}
+
+#loginSubmit{
+    font-family : cursive;
+    margin : 2px;
+    width : 30%;
+    background : transparent;
+    
+}
+    
+#logoutBody{
+    background-color :lightblue;
+}
+
+#main{
+    font-family : cursive;
+    font-size : 20px;
+    text-align : center;
+    width : 500px;
+    height : 300px;
+    margin-left : auto;
+    margin-right : auto;
+    border : 2px;
+    border-color : black;
+}
+
+#link{
+    color : blue; 
+}
+
+#link:hover{
+    color : red;
+    font-size : 25px;
+}
+
+#logHandleBody{
+    background-color :  lightblue;
+}
+
+.logFailInfo{
+    font-family : cursive; 
+    text-align : center;
+    margin-top : 20px;
+    color : red;
+}
